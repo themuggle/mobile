@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<item
+	android:id="@+id/reload_button"
+	android:icon="@drawable/ic_menu_refresh"
+	android:orderInCategory="80"
+	android:showAsAction="ifRoom"
+	android:title="@string/reload">
+</item>
+<item
+	android:id="@+id/locate"
+	android:icon="@android:drawable/ic_menu_mylocation"
+	android:orderInCategory="100"
+	android:showAsAction="ifRoom"
+	android:title="@string/locate">
+</item>
+<item
+	android:id="@+id/cache_clear"
+	android:orderInCategory="110"
+	android:showAsAction="never"
+	android:title="@string/cache_clear">
+</item>
+<item
+	android:id="@+id/select_plugins"
+	android:icon="@drawable/ic_action_plugins"
+	android:orderInCategory="90"
+	android:showAsAction="never"
+	android:title="@string/select_plugins">
+</item>
+<item
+	android:id="@+id/version_num"
+	android:orderInCategory="120"
+	android:showAsAction="never"
+	android:title="@string/version">
+</item>
+
+</menu>
